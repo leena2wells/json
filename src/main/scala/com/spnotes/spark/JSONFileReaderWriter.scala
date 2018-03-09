@@ -7,9 +7,6 @@ import com.typesafe.scalalogging.Logger
 import org.apache.spark.{SparkContext, SparkConf}
 import org.slf4j.LoggerFactory
 
-/**
-  * Created by sunilpatil on 12/31/15.
-  */
 
 class Person {
   @JsonProperty var first: String = null
