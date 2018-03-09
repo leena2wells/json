@@ -6,9 +6,7 @@ import org.apache.spark.streaming.flume.FlumeUtils
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.slf4j.LoggerFactory
 
-/**
-  * Created by sunilpatil on 12/29/15.
-  */
+
 object FlumePollingStreamClient {
   val logger = Logger(LoggerFactory.getLogger("FlumePollingStreamClient"))
 
